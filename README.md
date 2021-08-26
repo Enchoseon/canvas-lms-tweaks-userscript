@@ -11,6 +11,7 @@ Does not help all that much on devices weaker than a cellphone, yet.
 
 # Tweaks
 
+- __UX__: When visiting the dashboard, you'll automatically scroll down the actual dashboard—Past the announcements.
 - __UX__: Completed items in the dashboard in list view are now greyed out unless hovered over.
 - __UX__: Notification balls are now green & have a small animation.
 - __UX__: Leftmost sidebar bounce animation has been sped up greatly & replaced with a slide.
