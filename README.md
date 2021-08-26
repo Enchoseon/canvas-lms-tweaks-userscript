@@ -1,6 +1,6 @@
 # Canvas LMS Tweaks Userscript
 
-Various client-side tweaks &amp; bug-fixes to Canvas, the BloatPress of Learning Management Systems.
+Various client-side tweaks &amp; bug-fixes to Canvas LMS, the BloatPress of Learning Management Systems.
 
 This userscript is geared towards students. If you're a teacher, try [Canvancement](https://github.com/jamesjonesmath/canvancement).
 
@@ -29,3 +29,7 @@ Does not help all that much on devices weaker than a cellphone, yet.
 - __Debloat__: Removed class banner images from the dashboard in list view, which were usually poorly cropped & ugly anyways (they are now solid colors instead)
 - __Bug Fix__: Video player bar will no longer obstruct the bottom portion of the video.
 - __Bug Fix__: Scrolling to the top of the announcements on the dashboard will no longer cause you to jump midway down the page.
+
+# Want to Suggest New Features?
+
+Please check the [suggestions thread](https://github.com/Enchoseon/canvas-lms-tweaks-userscript/discussions/1#discussion-3540154).
