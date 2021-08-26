@@ -1,5 +1,8 @@
-# canvas-lms-tweaks-userscript
+# Canvas LMS Tweaks Userscript
+
 Various client-side tweaks &amp; bug-fixes to Canvas, the BloatPress of Learning Management Systems.
+
+This userscript is geared towards students. If you're a teacher, try [Canvancement](https://github.com/jamesjonesmath/canvancement).
 
 Tested on Tampermonkey for Firefox 91 & Chrome 92.
 
