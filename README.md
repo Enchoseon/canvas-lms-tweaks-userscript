@@ -27,5 +27,7 @@ Does not help all that much on devices weaker than a cellphone, yet.
 - __Debloat__: Removed buttons that were already greyed-out & disabled by your organization in your inbox. Why basic inbox functions would be disabled is beyond me, but at least they won't take up extra space anymore.
 - __Debloat__: Removed the organization logo from the top of the leftmost sidebar.
 - __Debloat__: Removed class banner images from the dashboard in list view, which were usually poorly cropped & ugly anyways (they are now solid colors instead)
+- __Debloat__: Removed the "View Course Stream", "View Course Calendar", & "View Course Notifications" buttons from the course view.
+- __Debloat__: Removed class banner images from the dashboard in list & card view (makes them solid colors)
 - __Bug Fix__: Video player bar will no longer obstruct the bottom portion of the video.
 - __Bug Fix__: Scrolling to the top of the announcements on the dashboard will no longer cause you to jump midway down the page.
