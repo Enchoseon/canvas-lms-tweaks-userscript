@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name     	Canvas LMS Tweaks Userscript
 // @namespace	https://github.com/Enchoseon/canvas-lms-tweaks-userscript/blob/main/canvas-lms-tweaks.user.js
-// @version  	0.1.2
+// @version  	0.1.3
 // @description  Various client-side tweaks & bug-fixes to Canvas LMS.
 // @author   	Enchoseon
 // @include  	*instructure.com*
@@ -20,21 +20,21 @@
     	injectCSS(`
         	/* Responsiveness / Visibility */
         	.planner-completed-items { /* UX: Make completed items in the dashboard in list view greyed out unless hovered over */
-            	opacity: 0.21;
-            	transition: opacity 169ms;
+            	opacity: 0.21 !important;
+            	transition: opacity 169ms !important;
         	}
         	.planner-completed-items:hover {
-            	opacity: 0.99;
+            	opacity: 0.99 !important;
         	}
         	div.NotificationBadge-styles__activityIndicator.NotificationBadge-styles__hasBadge div span { /* UX: Make notification bubbles green & bouncy */
-            	zoom: 125%;
-            	background-color: lightgreen;
-            	-webkit-animation: pulsate-fwd 690ms ease-in-out infinite both;
-            	animation: pulsate-fwd 690ms ease-in-out infinite both;
+            	zoom: 125% !important;
+            	background-color: lightgreen !important;
+            	-webkit-animation: pulsate-fwd 690ms ease-in-out infinite both !important;
+            	animation: pulsate-fwd 690ms ease-in-out infinite both !important;
         	}
         	body.primary-nav-transitions .menu-item__text { /* UX: Replace 600ms bounce animation with a faster sliding one */
-            	transition: transform 69ms cubic-bezier(0.21, 0.420, 0.69, 1.275),opacity 42ms;
-            	transition-delay: 21ms;
+            	transition: transform 69ms cubic-bezier(0.21, 0.420, 0.69, 1.275),opacity 42ms !important;
+            	transition-delay: 21ms !important;
         	}
         	/* Debloat */
         	#immersive_reader_mount_point, /* UX: Remove the immersive reader button, which is just another eyesore unless you actually use it */
@@ -50,7 +50,7 @@
         	}
         	div.Grouping-styles__root.planner-grouping a, div.ic-DashboardCard__header_image { /* UX: Remove class banner images from dashboard in list view & card view (makes them solid colors) */
             	background-image: none !important;
-            	height: auto;
+            	height: auto !important;
         	}
         	/* Animations */
         	@-webkit-keyframes pulsate-fwd {
@@ -88,11 +88,11 @@
     	injectCSS(`
         	/* Responsiveness / Visibility */
         	.dVRGv_crZr { /* Bug: Video player bar blocks bottom of the video & is not easily dismissed (problematic when pausing to take notes); Fix: The video player bar is now see-through when you're not hovering over it */
-            	opacity: 0.25;
-            	transition: opacity 250ms;
+            	opacity: 0.25 !important;
+            	transition: opacity 250ms !important;
         	}
         	.dVRGv_crZr:hover {
-            	opacity: 0.95;
+            	opacity: 0.95 !important;
         	}
     	`);
 	}
