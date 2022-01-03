@@ -4,17 +4,15 @@ Various client-side tweaks &amp; bug-fixes to Canvas LMS, the BloatPress of Lear
 
 This userscript is geared towards students. If you're a teacher, try [Canvancement](https://github.com/jamesjonesmath/canvancement).
 
+# [Convenient Install Link](https://github.com/Enchoseon/canvas-lms-tweaks-userscript/raw/main/canvas-lms-tweaks.user.js)
+
 Tested on Tampermonkey for Firefox 91 & Chrome 92.
 
-Does not help all that much on devices weaker than a cellphone, yet.
-
-# Convenient Install Link
-
-[Install](https://github.com/Enchoseon/canvas-lms-tweaks-userscript/raw/main/canvas-lms-tweaks.user.js)
+Doesn't help all that much with speed on devices weaker than a cellphone, yet.
 
 # Tweaks
 
-- __UX__: When visiting the dashboard, you'll automatically scroll down the actual dashboard—Past the announcements.
+- __UX__: When visiting the dashboard, you'll automatically scroll down to the actual dashboard, past the announcements.
 - __UX__: Completed items in the dashboard in list view are now greyed out unless hovered over.
 - __UX__: Notification balls are now green & have a small animation.
 - __UX__: Leftmost sidebar bounce animation has been sped up greatly & replaced with a slide.
